@@ -2,7 +2,7 @@
 
 It's like a off-by-one error on your wedding day.
 
-```python
+```python console
 >>> from plusonedecorator import plus_one
 >>> @plus_one
 ... def cost(quantity: int, marginal_cost: float) -> float:

@@ -2,7 +2,7 @@
 
 > I’m like a pâtissier, except I decorate functions instead of cakes, and I decorate with U+1F4A9 instead of frosting.
 
-```python
+```python console
 >>> from aholedecorator import a_hole
 >>> @a_hole
 ... def hello(name: str = "friend") -> str:
