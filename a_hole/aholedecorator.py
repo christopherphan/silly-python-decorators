@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Provide ``a_hole`` decorator."""
+"""Define the ``a_hole`` decorator."""
 
 ########################################################################################
-# Silly decorators #1: @ahole decorator
+# Silly decorators #1: @a_hole decorator
 #
 # By Christopher Phan, cphan@chrisphan.com
 # github: christopherphan
@@ -36,9 +36,9 @@
 # warranty! I mean, c'mon!)
 ########################################################################################
 
-from typing import Callable, Final, List
-from random import random, choice
 from functools import wraps
+from random import choice, random
+from typing import Callable, Final, List
 
 _MESSAGES: Final[List[str]] = [
     "AITA? Probably!",
