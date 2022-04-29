@@ -2,6 +2,8 @@
 
 S6 E16 "Drought Conditions": A heated argument between Josh and Toby comes to blows. Later, at a party fundraiser, the president is told that to avoid the appearance of taking sides in a primary battle, the only person he's allowed to talk to is that Republican dude that Donna dated for a few episodes in season 3.
 
+![](take_five_decorator.gif)
+
 ```python console
 >>> import timeit
 >>> from takefivedecorator import take_five
